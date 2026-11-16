@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="宜大吃什麼：記錄宜蘭大學附近的美食，分享歡喜堂、人吉牛丼、義響家的真實用餐心得。">
+  <title>宜大吃什麼｜我的美食手帳</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/food-data.js"></script>
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#journal">跳到美食筆記</a>
+  <header class="site-header wrap">
+    <a class="brand" href="#"><span class="brand-stamp" aria-hidden="true">食</span><span>宜大吃什麼<small>MY LITTLE FOOD JOURNAL</small></span></a>
+    <nav aria-label="主要導覽"><a href="#journal">翻翻美食筆記</a><a href="#about">關於這本手帳</a></nav>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow">宜蘭大學周邊 · 我的用餐紀錄</p><h1 id="hero-title">今天，<br>一起吃點<span class="underline">好吃的</span>。</h1><p class="intro">把吃過的美食，收進一本小手帳。<br>從一碗牛丼到一盤義大利麵，記下自己的味蕾小事。</p><a class="primary-link" href="#journal">打開美食手帳 <span aria-hidden="true">↘</span></a><p class="tiny-note">沒有複雜的評分，只有我吃過的感想。</p></div>
+      <div class="hero-art" role="img" aria-label="裝飾插畫：一張餐盤手繪便條，非餐點實拍">
+        <div class="pencil-star star-one" aria-hidden="true">✳</div><div class="art-paper"><span class="tape"></span><p class="handwritten">生活的小確幸，<br>常常在下一餐。</p><div class="plate" aria-hidden="true"><div class="pasta"><i></i><i></i><i></i><i></i><i></i></div><span class="leaf leaf-one"></span><span class="leaf leaf-two"></span><span class="tomato"></span></div><p class="art-caption">a little plate of happiness</p></div><span class="round-stamp" aria-hidden="true">好好吃飯<br>好好生活</span><span class="art-label">手帳裝飾插畫 · 非餐點實拍</span>
+      </div>
+    </section>
+    <section class="journal wrap" id="journal" aria-labelledby="journal-title">
+      <div class="section-heading"><div><p class="eyebrow">PAGES FROM MY NOTEBOOK</p><h2 id="journal-title">吃過，就記下來<span id="entry-count" class="count"></span></h2></div><p class="section-aside">我的宜大周邊美食筆記 <span aria-hidden="true">↙</span></p></div>
+      <div id="food-cards" class="food-grid"></div>
+      <noscript><p>請啟用 JavaScript 閱讀互動筆記。內容摘要：歡喜堂沙茶羊肉炒麵（大份）NT$90，蠻有味道的；人吉牛丼牛丼 NT$110，以牛丼來說非常不錯，味噌湯也好喝；義響家羅勒雞腿義大利麵 NT$200，青醬蠻好吃的，雞腿也不錯。</p></noscript>
+      <div class="next-page"><span aria-hidden="true">＋</span><p>下一頁，留給下一餐。<small>美食筆記，慢慢更新中。</small></p></div>
+    </section>
+    <section class="about wrap" id="about" aria-labelledby="about-title"><span class="about-icon" aria-hidden="true">✎</span><div><p class="eyebrow">A NOTE TO YOU</p><h2 id="about-title">一本從宜大附近開始的美食手帳</h2><p>這裡記錄我吃過的餐點與自己的感想。口味很個人，希望這些小筆記，能給正在想「今天吃什麼」的你一點靈感。</p><p class="disclaimer">價格為用餐時紀錄，僅供參考；餐點與價格請以店家現場提供為準。</p></div></section>
+  </main>
+  <footer class="site-footer wrap"><p>宜大吃什麼 <span>｜ 把每一餐，寫成小日常。</span></p><a href="AGENTS.md">這本手帳的開發規則 ↗</a></footer>
+  <dialog id="food-dialog" aria-labelledby="detail-title"><button class="close-button" id="close-dialog" aria-label="關閉美食筆記">✕</button><article id="food-detail"></article></dialog>
+</body>
+</html>
