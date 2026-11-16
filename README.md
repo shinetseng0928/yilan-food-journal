@@ -42,11 +42,10 @@ node --check assets/js/app.js
 ```
 這些指令只檢查語法，不能取代實際開啟網站測試互動與版面。
 
-## GitHub Pages 發布（第四步）
+## GitHub Pages 發布
 1. 在自己的 GitHub 建立 repository，例如 `yilan-food-journal`。
 2. 將這個專案資料夾內的檔案與 `assets` 目錄上傳到 repository 根目錄。確保 `index.html` 位於根目錄。
 3. 到 Settings → Pages，選擇 Deploy from a branch，再選 main 與 /(root)，儲存。
 4. 等待部署成功，開啟 Pages 提供的網址，確認三張卡片與詳情可以正常使用。
 5. 作業繳交 GitHub repository 網址與公開網站網址。
 
-目前這份檔案提供發布流程；沒有實際上傳及部署成功以前，不代表已完成第四步。
